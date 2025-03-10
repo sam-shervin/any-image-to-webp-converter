@@ -1,0 +1,23 @@
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "any-image-to-webp-converter"
+version = "0.1.0"
+description = "A Python tool to recursively convert images to WebP using a modern PyQt5 UI."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    { name = "Sam Shervin S", email = "samshervin.sebastian@gmail.com" }
+]
+dependencies = [
+    "Pillow>=11.1.0",
+    "pillow-heif>=0.21.0",
+    "PyQt5>=5.15.11"
+]
+
+[project.urls]
+Homepage = "https://github.com/sam-shervin/any-image-to-webp-converter"
